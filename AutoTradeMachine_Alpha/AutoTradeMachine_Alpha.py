@@ -27,7 +27,7 @@ window.bind("<Escape>", lambda event: window.attributes("-fullscreen", False)) #
 #ATM Modules Initialization
 uiMan = uiManager(window, canvas, text)
 recordMan = recordManager()
-accessMan = accessManager()
+#accessMan = accessManager()
 analysisMan = analysisManager()
 print("\nINITIALIZATION COMPLETED!!!\n")
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
