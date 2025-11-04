@@ -9,7 +9,7 @@ Honestly, there's not much to see here - I just wanted to put it out there for a
 *** 
 If you ever happen to be interested to look at the code, you'll see that in the main file the `accessManager` part (which tests Binance API interaction) is commented out. 
 That's because in the original version, `accessManager` reads API Keys from a text file named "apikeys.txt" upon initialization, but there's no exception handling implemented for when that file doesn't exist.
-I could fix it, but wanted to keep the code as original as possible. So I just commented that part out - since you know, this particular version doesn't really do anything anyways haha
+I could fix it, but wanted to keep the code as original as possible.
 
 Anyways, when you run the program, you'll still be able to play with the little interaction test GUI I made - so enjoy!
 ***
